@@ -1,2 +1,2 @@
 # russ-portfolio
-Portfolio with React and Three.js
+Portfolio with React, Tailwindcss and Three.js
