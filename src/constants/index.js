@@ -9,17 +9,12 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  csharp,
+  russImmobilien,
   jobit,
   tripguide,
   threejs,
@@ -42,19 +37,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Entwickler",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Entwickler",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Entwickler",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Destop Entwicklung",
     icon: creator,
   },
 ];
@@ -77,16 +72,16 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "csharp",
+    icon: csharp,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
     name: "Redux Toolkit",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -105,10 +100,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -116,55 +107,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Html CSS JavaScript",
+    company_name: "Private Entwicklung",
+    icon: javascript,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mai 2020 - September 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lernen der Grundlagen von Webentwicklung, darunter den Aufbau und Entstehung von Webseiten.",
+      "Einstieg mit Html, CSS/SCSS und der Entwicklung einer privaten Homepage.",
+      "Grundprinzipen der Programmierung mit JavaSript kennengelernt.",
+      "Entwicklung von privaten Projekten zur Vorbereitung für den Start meiner Ausbildung als Fachinformatiker.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Ausbildung als Fachinformatiker für Anwendungsentwicklung",
+    company_name: "Caddent GmbH",
+    icon: csharp,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2021 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "In meiner Ausbildung habe ich eine Vielzahl an Technologien kennengelernt und Projekte umgesetzt.",
+      "Die meisten Projekte wurden in der Programmiersprach C# umgesetzt, wie API's mit ASP.Net, Webentwicklung mit Blazor oder Desktop Anwendungen.",
+      "Durch die Erfahrungen im Team und die Entwicklung komplexer Programme habe ich große Fortschritte gemacht.",
+      "Mit der Programmierung in C# lernte ich die Vor- und Nachteile der Objektorientierung ausführlich kennen.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Private Projekte",
+    company_name: "Ziele",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Mai 2020 - .....",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Privat versuche ich immer neue Technologien kennen zu lernen und mein Wissen zu erweitern.",
+      "Ich habe seit dem Beginn meiner Programmierung spaß daran, eigene Ideen kreativ umzusetzen.",
+      "Seit Mai 2020 habe ich viele private Projekte umgesetzt, welche Sie weiter unten in dem Portfolio ansehen können.",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full Stack",
     company_name: "Meta",
-    icon: meta,
+    icon: mongodb,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Im Moment",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ich arbeite daran, ein zuverlässiger Full stack Webentwickler zu werden",
+      "Im Moment lerne ich mit Datenbanken wie MongoDB und Backends / Restful API's mit Node.js aufzubauen",
+      "Updates folgen..."
     ],
   },
 ];
@@ -172,51 +161,51 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Die Webseite hat mich in allen Bereichen überzeugt. Meine Vorstellungen wurden professionell umgesetzt.",
+    name: "Martin Russ",
+    designation: "Gründer",
+    company: "Russ Immobilien",
+    image: "https://profile-images.xing.com/images/6ff1dbd9327a9bd62222393747c71996-3/martin-russ.1024x1024.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Ich sehr gerne im Team zusammen gearbeitet und würde Ihn jederezeit weiter empfehlen",
+    name: "Luca",
+    designation: "CEO",
+    company: "Keno",
+    image: "https://pbs.twimg.com/profile_images/1546458449390739457/yBCOrrIR_400x400.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Herr Russ ist ein Programmierer, welcher mich vorallem durch seine kreativen Lösungsansetze überzeugt hat",
+    name: "Isa",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "3FB Enterprise",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Russ Immobilien",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Eine moderne Buisness Webseite für das Unternehmen meines Bruders. Hier werden die Leistungen des Unternehmens professionel dargestellt. Hier wurde besonders auf Performance, User-experience und SEO geachtet",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "SEO",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "php",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: russImmobilien,
+    source_code_link: "https://russ-immobilien.de/",
   },
   {
     name: "Job IT",

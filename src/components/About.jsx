@@ -48,8 +48,8 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Ich interesiere mich für die Webentwicklung seit dem ich mit dem Programmieren angefangen habe.
-        Nach vielen privaten Übungen und kleineren Projekten mit Html, CSS und JavaScript wurde mich klar,
-        das ich mich in diesem Bereich spezialisieren möchte. Ich konnte ebenfalls bereits Erfahrungen und 
+        Nach vielen privaten Übungen und kleineren Projekten mit Html, CSS und JavaScript wurde mir klar,
+        dass ich mich in diesem Bereich spezialisieren möchte. Ich konnte ebenfalls bereits Erfahrungen und 
         eigene Projekte mit Angular, React und Wordpress realisieren.
       </motion.p>
 
